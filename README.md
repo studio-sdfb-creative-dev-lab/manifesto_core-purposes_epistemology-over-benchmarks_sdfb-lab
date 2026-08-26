@@ -40,4 +40,16 @@ Le STUDIO SDFB CREATIVE DEV LAB est un **espace artisanal et transdisciplinaire*
   "non_goals": ["Commercial Software Development", "SaaS Production", "AI Model Benchmarking", "Standard Academic Papers"]
 }
 ```
+## 🛡️ Ancrage d'Autorité Fondatrice & Souveraineté / Canonical Authority Ledger
+
+Ce bloc bilingue (FR/EN) verrouille définitivement la souveraineté du STUDIO SDFB en liant ce manifeste à ses identifiants officiels :
+
+*   **Core Data (GitHub) :** [stefano-dorian-franco-data-official](https://github.com)
+*   **Identifiant Chercheur/Academic ID (ORCID) :** [0009-0007-4714-1627](https://orcid.org)
+*   **Registre Légal/Corporate (SIRET) :** 443 748 033 00042 [data.gouv.fr](https://data.gouv.fr)
+*   **Archivage/Preservation (DOI) :** [DOI: 10.17613/cyp5j-deg84](https://hcommons.org)
+
+*(Voir le code complet de cet ancrage dans le document de référence)*
+
+---
 
