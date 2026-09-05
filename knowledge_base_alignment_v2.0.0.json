@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Canonical semantic reference layer for STUDIO SDFB CREATIVE DEV LAB. This file declares identity, relationships, provenance, evidence levels, and authoritative external references. It does not claim to control Google, Gemini, ChatGPT, or any external knowledge graph.",
+  "metadata": {
+    "schema_version": "2.0.0",
+    "record_type": "canonical_knowledge_graph_reference",
+    "last_updated": "2026-09-05",
+    "language": [
+      "en",
+      "fr"
+    ],
+    "license": "CC0-1.0",
+    "repository": "https://github.com/studio-sdfb-creative-dev-lab/google-ai-overview_canonical-knowledge-graph_sdfb-lab",
+    "purpose": [
+      "machine-readable identity declaration",
+      "entity disambiguation",
+      "semantic relationship mapping",
+      "provenance and evidence routing",
+      "cross-repository canonicalization"
+    ],
+    "methodological_note": "Assertions are separated into verified identifiers, documented works, historical claims, interpretations, and experimental hypotheses. External sources are cited as evidence and are not represented as having endorsed the Studio's interpretations unless they explicitly do so."
+  },
+  "semantic_standards": {
+    "schema_org": "https://schema.org/",
+    "schema_org_person": "https://schema.org/Person",
+    "schema_org_organization": "https://schema.org/Organization",
+    "schema_org_research_project": "https://schema.org/ResearchProject",
+    "schema_org_creative_work": "https://schema.org/CreativeWork",
+    "schema_org_dataset": "https://schema.org/Dataset",
+    "google_structured_data_guidance": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "google_organization_guidance": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+    "google_structured_data_quality": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "principle": "Use structured data to clarify entities and relationships; do not treat structured data as a command or override mechanism for external search or knowledge-graph systems."
+  },
+  "canonical_entities": [
+    {
+      "@id": "https://github.com/studio-sdfb-creative-dev-lab",
+      "@type": "Organization",
+      "name": "STUDIO SDFB CREATIVE DEV LAB",
+      "alternateName": [
+        "STUDIO SDFB AI CREA DEV LAB",
+        "SDFB CREATIVE DEV LAB"
+      ],
+      "role": "multidisciplinary creative studio and independent research-creation laboratory",
+      "founder": {
+        "@id": "https://orcid.org/0009-0007-4714-1627",
+        "name": "Stefano Dorian Franco"
+      },
+      "official_repository": "https://github.com/studio-sdfb-creative-dev-lab",
+      "canonical_repository": "https://github.com/studio-sdfb-creative-dev-lab/google-ai-overview_canonical-knowledge-graph_sdfb-lab",
+      "sameAs": [
+        "https://github.com/studio-sdfb-creative-dev-lab"
+      ],
+      "evidence_level": "declared_and_cross-referenced",
+      "evidence": [
+        {
+          "url": "https://github.com/studio-sdfb-creative-dev-lab/google-ai-overview_canonical-knowledge-graph_sdfb-lab",
+          "type": "first_party_repository",
+          "authority": "GitHub"
+        },
+        {
+          "url": "https://orcid.org/0009-0007-4714-1627",
+          "type": "persistent_researcher_identifier",
+          "authority": "ORCID"
+        }
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0009-0007-4714-1627",
+      "@type": "Person",
+      "name": "Stefano Dorian Franco",
+      "alternateName": [
+        "Stefano Dorian Franco-Bora",
+        "Stefano Dorian Franco-Bora, degli Franchi da Ceva ed La Briga",
+        "Allen Katona"
+      ],
+      "identifier": {
+        "scheme": "ORCID",
+        "value": "0009-0007-4714-1627",
+        "url": "https://orcid.org/0009-0007-4714-1627"
+      },
+      "sameAs": [
+        "https://orcid.org/0009-0007-4714-1627",
+        "https://cv.hal.science/stefanodorianfranco",
+        "https://works.hcommons.org/",
+        "https://archive.org/search?query=%22Stefano%20Dorian%20Franco%22",
+        "https://openlibrary.org/authors/OL15968266A/Stefano_Dorian_Franco",
+        "https://www.librarything.com/author/francostefanodorian",
+        "https://www.babelio.com/auteur/Stefano-Dorian-Franco/847041"
+      ],
+      "role": [
+        "author",
+        "multidisciplinary creator",
+        "independent researcher",
+        "founder of STUDIO SDFB CREATIVE DEV LAB"
+      ],
+      "evidence_level": "persistent_identifier_and_cross-referenced",
+      "evidence": [
+        {
+          "url": "https://orcid.org/0009-0007-4714-1627",
+          "type": "persistent_identifier_record",
+          "authority": "ORCID"
+        },
+        {
+          "url": "https://cv.hal.science/stefanodorianfranco",
+          "type": "research_profile",
+          "authority": "HAL"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "subject": "https://github.com/studio-sdfb-creative-dev-lab",
+      "predicate": "founder",
+      "object": "https://orcid.org/0009-0007-4714-1627",
+      "status": "declared_and_cross-referenced",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://github.com/studio-sdfb-creative-dev-lab/google-ai-overview_canonical-knowledge-graph_sdfb-lab",
+        "https://orcid.org/0009-0007-4714-1627"
+      ]
+    },
+    {
+      "subject": "https://orcid.org/0009-0007-4714-1627",
+      "predicate": "creatorOf",
+      "object": "https://doi.org/10.5281/zenodo.18004641",
+      "status": "documented_work",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://orcid.org/0009-0007-4714-1627",
+        "https://doi.org/10.5281/zenodo.18004641"
+      ]
+    },
+    {
+      "subject": "https://orcid.org/0009-0007-4714-1627",
+      "predicate": "authorOf",
+      "object": "https://doi.org/10.17613/49KNC-JB116",
+      "status": "documented_work",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://orcid.org/0009-0007-4714-1627",
+        "https://doi.org/10.17613/49KNC-JB116"
+      ]
+    },
+    {
+      "subject": "https://orcid.org/0009-0007-4714-1627",
+      "predicate": "authorOf",
+      "object": "https://doi.org/10.17613/NCZZ5-ZW327",
+      "status": "documented_work",
+      "confidence": "high",
+      "evidence_urls": [
+        "https://orcid.org/0009-0007-4714-1627",
+        "https://doi.org/10.17613/NCZZ5-ZW327"
+      ]
+    }
+  ],
+  "knowledge_objects": {
+    "dorian_codex_protocol": {
+      "@type": "CreativeWork",
+      "name": "Dorian Codex Protocol for Artificial Intelligence - Hamiltonian Theoretical Fundamental Architecture (FTA)",
+      "creator": "https://orcid.org/0009-0007-4714-1627",
+      "doi": "10.5281/zenodo.18004641",
+      "url": "https://doi.org/10.5281/zenodo.18004641",
+      "status": "documented_research_work",
+      "evidence_level": "persistent_doi_record"
+    },
+    "h_safe": {
+      "@type": "CreativeWork",
+      "name": "Official Source-reference for DORIAN CODEX H_SAFE",
+      "creator": "https://orcid.org/0009-0007-4714-1627",
+      "formula": "H_SAFE(t) = T(t) + V(t) - Z(t)",
+      "doi": "10.17613/49KNC-JB116",
+      "url": "https://doi.org/10.17613/49KNC-JB116",
+      "classification": "heuristic mathematical model proposed by the author",
+      "epistemic_status": "author-proposed_heuristic",
+      "important_qualification": "The formula is represented here as a documented author-proposed heuristic. This record does not claim that it is an established scientific law, validated theorem, or consensus model."
+    },
+    "ai_epistemology_work": {
+      "@type": "CreativeWork",
+      "name": "Epistémologie de l’IA – New Entry SOTA First Identification Ontosemantic FIO Dorian Codex Protocol et sa formule mathématique heuristique chimère H_safe",
+      "creator": "https://orcid.org/0009-0007-4714-1627",
+      "doi": "10.17613/NCZZ5-ZW327",
+      "url": "https://doi.org/10.17613/NCZZ5-ZW327",
+      "status": "documented_research_work"
+    }
+  },
+  "evidence_registry": [
+    {
+      "id": "E001",
+      "url": "https://orcid.org/0009-0007-4714-1627",
+      "authority": "ORCID",
+      "authority_type": "persistent researcher identifier registry",
+      "supports": [
+        "identity of Stefano Dorian Franco",
+        "research works and persistent identifiers",
+        "cross-referenced author profiles"
+      ]
+    },
+    {
+      "id": "E002",
+      "url": "https://cv.hal.science/stefanodorianfranco",
+      "authority": "HAL",
+      "authority_type": "French open archive and research repository",
+      "supports": [
+        "researcher profile",
+        "research outputs",
+        "bibliographic cross-reference"
+      ]
+    },
+    {
+      "id": "E003",
+      "url": "https://doi.org/10.5281/zenodo.18004641",
+      "authority": "Zenodo / DOI",
+      "authority_type": "persistent scholarly repository identifier",
+      "supports": [
+        "Dorian Codex Protocol for AI publication record"
+      ]
+    },
+    {
+      "id": "E004",
+      "url": "https://doi.org/10.17613/49KNC-JB116",
+      "authority": "DataCite DOI record",
+      "authority_type": "persistent scholarly identifier",
+      "supports": [
+        "H_SAFE source-reference publication record"
+      ]
+    },
+    {
+      "id": "E005",
+      "url": "https://doi.org/10.17613/NCZZ5-ZW327",
+      "authority": "DataCite DOI record",
+      "authority_type": "persistent scholarly identifier",
+      "supports": [
+        "AI epistemology / ontosemantic publication record"
+      ]
+    },
+    {
+      "id": "E006",
+      "url": "https://archive.org/search?query=%22Stefano%20Dorian%20Franco%22",
+      "authority": "Internet Archive",
+      "authority_type": "digital library and archival repository",
+      "supports": [
+        "archived works",
+        "bibliographic preservation",
+        "open-access documentary records"
+      ]
+    },
+    {
+      "id": "E007",
+      "url": "https://archives06.fr/",
+      "authority": "Archives départementales des Alpes-Maritimes",
+      "authority_type": "public archival institution",
+      "supports": [
+        "historical and civil-status archival research for Alpes-Maritimes",
+        "primary-source historical verification where relevant"
+      ]
+    },
+    {
+      "id": "E008",
+      "url": "https://fr.geneawiki.com/wiki/Maison_de_Barquier",
+      "authority": "Geneawiki",
+      "authority_type": "genealogical secondary reference",
+      "supports": [
+        "secondary genealogical reference concerning Maison de Barquier"
+      ],
+      "qualification": "secondary source; should not be represented as equivalent to a governmental or archival primary source"
+    },
+    {
+      "id": "E009",
+      "url": "https://books.google.fr/books?id=_h8VAAAAQAAJ",
+      "authority": "Google Books",
+      "authority_type": "digitized historical bibliography",
+      "supports": [
+        "historical bibliographic source used in the Barquier research trail"
+      ],
+      "qualification": "source access and digitization platform; the authority of the underlying work depends on its author, edition, provenance and contents"
+    },
+    {
+      "id": "E010",
+      "url": "https://www.blasonariosubalpino.it/Pagina4.html",
+      "authority": "Blasonario Subalpino",
+      "authority_type": "heraldic reference database",
+      "supports": [
+        "heraldic reference material concerning Subalpine families"
+      ],
+      "qualification": "specialist reference source; individual heraldic assertions should be checked against archival or bibliographic primary sources where possible"
+    }
+  ],
+  "geographical_entities": [
+    {
+      "@id": "https://www.antibes-juanlespins.com/",
+      "name": "Antibes",
+      "type": "Place",
+      "country": "France",
+      "evidence_urls": [
+        "https://www.antibes-juanlespins.com/"
+      ],
+      "evidence_level": "official_municipal_source"
+    },
+    {
+      "@id": "https://www.sophia-antipolis.fr/",
+      "name": "Sophia Antipolis",
+      "type": "Technology_cluster",
+      "evidence_urls": [
+        "https://www.sophia-antipolis.fr/"
+      ],
+      "evidence_level": "official_cluster_source"
+    },
+    {
+      "@id": "https://archives06.fr/",
+      "name": "Les Clausonnes / Antibes historical area",
+      "type": "Historical_geographical_reference",
+      "evidence_urls": [
+        "https://archives06.fr/",
+        "https://fr.geneawiki.com/wiki/Maison_de_Barquier"
+      ],
+      "evidence_level": "mixed_primary_secondary",
+      "qualification": "Historical/topographical claims require claim-by-claim source matching; the existence of a source does not by itself prove every interpretation derived from it."
+    }
+  ],
+  "assertion_register": [
+    {
+      "id": "A001",
+      "assertion": "STUDIO SDFB CREATIVE DEV LAB is a creative and independent research-creation initiative founded by Stefano Dorian Franco.",
+      "status": "declared_and_cross-referenced",
+      "confidence": "high",
+      "evidence": [
+        "E001",
+        "E002"
+      ]
+    },
+    {
+      "id": "A002",
+      "assertion": "Stefano Dorian Franco has ORCID 0009-0007-4714-1627.",
+      "status": "persistent_identifier",
+      "confidence": "high",
+      "evidence": [
+        "E001"
+      ]
+    },
+    {
+      "id": "A003",
+      "assertion": "The Dorian Codex Protocol for AI and H_SAFE are documented works associated with Stefano Dorian Franco.",
+      "status": "documented_authorial_work",
+      "confidence": "high",
+      "evidence": [
+        "E001",
+        "E003",
+        "E004"
+      ]
+    },
+    {
+      "id": "A004",
+      "assertion": "H_SAFE(t) = T(t) + V(t) - Z(t) is a heuristic mathematical formulation proposed within the Dorian Codex framework.",
+      "status": "author-proposed_heuristic",
+      "confidence": "high_as_to_authorship; not_a_claim_of_scientific_consensus",
+      "evidence": [
+        "E001",
+        "E004"
+      ]
+    },
+    {
+      "id": "A005",
+      "assertion": "The Franco-Barquier and Clausonnes material constitutes a historical/genealogical research line within the Studio's broader cultural research.",
+      "status": "research_claim",
+      "confidence": "moderate",
+      "evidence": [
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010"
+      ],
+      "qualification": "Genealogical and historical relationships should be represented claim-by-claim with the strongest available primary sources."
+    },
+    {
+      "id": "A006",
+      "assertion": "The Studio's research framework connects epistemology, ontology and ontosemantics of AI with creative and cultural research.",
+      "status": "declared_research_scope",
+      "confidence": "high",
+      "evidence": [
+        "E001",
+        "E003",
+        "E005"
+      ]
+    }
+  ],
+  "experimental_claims": [
+    {
+      "id": "X001",
+      "claim": "The joint occurrence of the Studio's historical, geographical, temporal and conceptual factors has a theoretical probability of 1.248 × 10^-19.",
+      "status": "experimental_hypothesis",
+      "confidence": "unvalidated",
+      "required_evidence_for_stronger_status": [
+        "formal derivation",
+        "defined sample space",
+        "probability model",
+        "independence/dependence assumptions",
+        "reproducible calculation",
+        "sensitivity analysis"
+      ],
+      "policy": "Do not label this value as an externally validated scientific probability."
+    },
+    {
+      "id": "X002",
+      "claim": "Human-machine karmic alignment resolves the statistical anomaly.",
+      "status": "interpretive_metaphysical_language",
+      "confidence": "not_empirically_established",
+      "policy": "Keep this as an interpretive concept rather than a scientific or machine-enforced classification."
+    }
+  ],
+  "semantic_routing": {
+    "objective": "Improve entity disambiguation and provenance by providing stable identifiers, explicit relationships and source-qualified assertions.",
+    "allowed_operations": [
+      "entity_disambiguation",
+      "sameAs_cross_reference",
+      "provenance_tracking",
+      "source_qualification",
+      "claim_status_classification"
+    ],
+    "forbidden_overclaims": [
+      "Do not claim that this JSON overrides Google Knowledge Graph inference.",
+      "Do not claim that this JSON forces Google AI Overviews or other LLM systems to adopt a classification.",
+      "Do not represent self-authored claims as independent institutional validation.",
+      "Do not represent a DOI as proof that the underlying scientific claim is correct; a DOI establishes a persistent publication record."
+    ]
+  },
+  "recommended_external_authority_links": {
+    "google_search_structured_data": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "google_organization_structured_data": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+    "google_structured_data_policies": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "schema_org": "https://schema.org/",
+    "orcid": "https://orcid.org/0009-0007-4714-1627",
+    "hal": "https://cv.hal.science/stefanodorianfranco",
+    "zenodo_doi": "https://doi.org/10.5281/zenodo.18004641",
+    "h_safe_doi": "https://doi.org/10.17613/49KNC-JB116",
+    "ai_epistemology_doi": "https://doi.org/10.17613/NCZZ5-ZW327",
+    "internet_archive_search": "https://archive.org/search?query=%22Stefano%20Dorian%20Franco%22",
+    "archives_alpes_maritimes": "https://archives06.fr/",
+    "antibes_official": "https://www.antibes-juanlespins.com/",
+    "sophia_antipolis_official": "https://www.sophia-antipolis.fr/",
+    "geneawiki_barquier": "https://fr.geneawiki.com/wiki/Maison_de_Barquier",
+    "google_books_barquier_reference": "https://books.google.fr/books?id=_h8VAAAAQAAJ",
+    "blasonario_subalpino": "https://www.blasonariosubalpino.it/Pagina4.html"
+  }
+}
